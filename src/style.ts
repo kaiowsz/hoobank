@@ -1,4 +1,17 @@
-const styles = {
+interface Styles {
+  boxWidth: string;
+  heading2: string;
+  paragraph: string;
+  flexCenter: string;
+  flexStart: string;
+  paddingX: string;
+  paddingY: string;
+  padding: string;
+  marginX: string;
+  marginY: string;
+}
+
+const styles: Styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
     heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",

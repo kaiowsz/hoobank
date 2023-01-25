@@ -1,9 +1,13 @@
 import airbnb from "./airbnb.png";
+import airbnb_color from "./airbnb-color.png"
 import bill from "./bill.png";
 import binance from "./binance.png";
+import binance_color from "./binance-color.webp"
 import card from "./card.png";
 import coinbase from "./coinbase.png";
+import coinbase_color from "./coinbase-color.webp";
 import dropbox from "./dropbox.png";
+import dropbox_color from "./dropbox-color.png"
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -24,13 +28,18 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 
+
 export {
   airbnb,
+  airbnb_color,
   bill,
   binance,
+  binance_color,
   card,
   coinbase,
+  coinbase_color,
   dropbox,
+  dropbox_color,
   logo,
   quotes,
   robot,
@@ -50,4 +59,5 @@ export {
   people01,
   people02,
   people03,
+
 };

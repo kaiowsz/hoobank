@@ -18,6 +18,25 @@
   scroll-behavior: smooth;
 }
 
+.text-navbar {
+  color: rgb(235, 231, 231);
+  transition: all .3s;
+}
+
+.text-navbar:hover {
+  color: rgb(168, 166, 166);
+}
+
+.clients-logo {
+  filter: grayscale(100%);
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.clients-logo:hover {
+  filter: grayscale(0);
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -35,6 +54,7 @@
 }
 
 .bg-blue-gradient {
+  transition: all .5s;
   background: linear-gradient(
     157.81deg,
     #def9fa -43.27%,
@@ -43,6 +63,18 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.bg-blue-gradient:hover {
+  background: linear-gradient(
+    157.81deg,
+    #ffffff -43.27%,
+    #9bd6da -21.24%,
+    #7ed5da 12.19%,
+    #4fe7ec 29.82%,
+    #2fecf3 51.94%,
+    #1e99ac 90.29%
   );
 }
 

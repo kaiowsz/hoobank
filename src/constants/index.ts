@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, airbnb_color, binance_color, coinbase_color, dropbox_color } from "../assets";
 
 export const navLinks = [
   {
@@ -158,7 +158,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/npkaio._",
   },
   {
     id: "social-media-2",
@@ -168,30 +168,30 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/kaioowsz",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/kaiosilveir4",
   },
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: airbnb_color,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: binance_color,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: coinbase_color,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: dropbox_color,
   },
 ];

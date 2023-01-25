@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { close, logo, menu } from "../assets"
 import { navLinks } from '../constants'
+import { Link } from 'react-scroll'
 
 function Navbar() {
 
@@ -16,9 +17,9 @@ function Navbar() {
           navLinks.map((link, index) => (
             <li
             key={link.id} 
-            className={`z-[6] font-poppins cursor-pointer font-normal text-[16px] text-white ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} `}>
-              <a href={`#${link.id}`}></a>
-                {link.title}
+            className={`z-[6] font-poppins cursor-pointer font-normal text-[16px] text-navbar ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} `}>
+              <Link smooth to={`${link.id}`}>{link.title}</Link>
+                
               </li>
           ))
         }
